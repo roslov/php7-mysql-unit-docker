@@ -25,7 +25,7 @@ RUN apt-get update && \
 
 RUN apt-get update && \ 
         export DEBIAN_FRONTEND="noninteractive" && \
-        apt-get install -y mysql-server-5.5 && \
+        apt-get install -y mysql-server-5.6 && \
         service mysql start && \
         service mysql status
 
